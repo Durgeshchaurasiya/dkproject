@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+    padding: 0;
+    background: url('background6.jpg');
+    background-size: cover;
+    color: white;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 12px;
+}
+
+.left img {
+    width: 150px;
+}
+
+.mid {
+    display: block;
+    width: 40%;
+    margin: 12px auto;
+    margin-top: 12px;
+}
+
+.navbar {
+    display: inline-block;
+    color: white;
+}
+
+.navbar li {
+    display: inline-block;
+    color: white;
+    size: 5px;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    
+    color: rgb(170, 15, 155);
+}
